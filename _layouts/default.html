@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Sum of a Batch{%- if page.title -%}: {{ page.title }}{%- else -%}!{%- endif -%}</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>
+        {%- if page.url == "/" -%}<div style="font-size: 1.2em; margin: 0.2em">{%- endif -%}
+        <span style="position: absolute">
+          🏺<span class="sigma-on-amphora">Σ</span>
+        </span>
+        <!-- need to use the below to add the right amount of space,
+             due to absolute positioning making the above take no space -->
+        🏺
+        {%- if page.url != "/" -%}<a href="/">{%- endif -%}
+        Sum of a Batch!
+        {%- if page.url != "/" -%}</a>{%- else -%}</div>{%- endif -%}
+      </h1>
+      {%- if page.title -%}<h2>{{ page.title }}</h2>{%- endif -%}
+    </header>
+    <hr style="clear: both"/>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <hr/>
+      <small>Powered by <a href="https://www.Codosaur.us/" target="_new">Codosaurus, LLC</a>.</small><br/>
+      Copyright (C) 2021-{{ "now" | date: "%Y" }},
+        <i>
+          {%- if page.url != "/" -%}<a href="/">{%- endif -%}
+            Sum of a Batch!
+          {%- if page.url != "/" -%}</a>{%- endif -%},
+        </i>
+      All Rights Reserved.<br/>
+    </footer>
+
+  </body>
+
+</html>
