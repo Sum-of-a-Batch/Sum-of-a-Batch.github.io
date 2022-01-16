@@ -47,7 +47,8 @@ trying to keep them under about five minutes each
 - Just showing _how it's done_
 - What a _modern hobbyist_ would do differently
 - What a person in _"olde tymes"_ would have done differently
-- Any relevant _history_ and/or _theory_
+- Any relevant _history_
+- Any relevant _science_
 - Added later, relevant _Q&A_, if you send relevant questions
 
 And there may be also some _general_ Q&A videos.

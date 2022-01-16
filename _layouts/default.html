@@ -9,6 +9,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="/assets/css/main.css">
+    {%- if page.style -%}
+      <link rel="stylesheet" href="/assets/css/{{page.style}}.css">
+    {%- endif -%}
     <title>Sum of a Batch{%- if page.title -%}: {{ page.title }}{%- else -%}!{%- endif -%}</title>
   </head>
 

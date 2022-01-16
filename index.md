@@ -26,6 +26,6 @@ Site Contents:
 - 💡 [Advice](advice)
 - ⏯️ [Videos](videos) coming eventually, for now just a list of what's planned
 - 🏫 [Workshops](workshops) coming eventually, for now just a concept outline
-- 📔 Blog coming eventually, not yet set up
+- 📔 [Blog](blog) (set up, but no content yet)
 - 🔗 [Links](links) to useful stuff elsewhere
 - 🙇🏻 [Credits](credits)
