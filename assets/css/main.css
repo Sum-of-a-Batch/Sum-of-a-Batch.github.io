@@ -6,7 +6,7 @@
   --h5-size:       calc(var(--text-size) * var(--header-ratio));
   --header-ratio:  1.2;
   --text-size:     16pt;
-  --link-color:    var(--fg-color);  /* still have underline to mark links */
+  --link-color:    #dc9;  /* fg w/ +4 blue, -2 others */
   --bg-color:      #321;  /* brown */
   --fg-color:      #fc5;  /* roughly honey */
 }
