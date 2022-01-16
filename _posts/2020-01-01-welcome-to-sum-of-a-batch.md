@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog - Welcome to Sum of a Batch!
+title: Welcome to Sum of a Batch!
 updated:   2021-12-24
 tags: meta
 ---
