@@ -36,9 +36,9 @@ style: blog-index
 ## Tag Cloud
 {% for tag in site.tags %}
   [{{ tag[0] }}](tags/{{ tag[0] }}){:style="font-size: {{ tag[1] | size | times: 4 | plus: 10 }}px"}
-{% endfor %}
+{%- endfor -%}
 
 <br/>
 
-[RSS](/feed.xml)
+[Click here for RSS feed](/feed.xml)
 {:class="center"}
