@@ -15,7 +15,8 @@ Most people
 associate it with the Vikings,
 but actually,
 it was around for about 8,000 years before them,
-and was made _everywhere_ that people had honey,
+and was made _everywhere_ that people had honey
+--
 all over not only Europe,
 but also Africa and Asia,
 including the Philippines,
@@ -27,5 +28,6 @@ Site Contents:
 - ⏯️ [Videos](videos) coming eventually, for now just a list of what's planned
 - 🏫 [Workshops](workshops) coming eventually, for now just a concept outline
 - 📔 [Blog](blog)
+- ❓ [About](about)
 - 🔗 [Links](links) to useful stuff elsewhere
 - 🙇🏻 [Credits](credits)
