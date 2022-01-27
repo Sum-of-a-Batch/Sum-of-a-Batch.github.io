@@ -12,25 +12,30 @@
     {%- if page.style -%}
       <link rel="stylesheet" href="/assets/css/{{page.style}}.css">
     {%- endif -%}
-    <title>Sum of a Batch{%- if page.title -%}: {{ page.title }}{%- else -%}!{%- endif -%}</title>
+    {%- if page.js -%}
+      <script src="/assets/js/{{page.js}}.js" type="text/javascript"></script>
+    {%- endif -%}
+    <title>Sum of a Batch: {{ page.title }}</title>
   </head>
 
   <body>
 
     <header>
-      <h1>
-        {%- if page.url == "/" -%}<div style="font-size: 1.2em; margin: 0.2em">{%- endif -%}
+      <h1 style="padding: 0">
         <span style="position: absolute">
           🏺<span class="sigma-on-amphora">Σ</span>
         </span>
         <!-- need to use the below to add the right amount of space,
              due to absolute positioning making the above take no space -->
         🏺
-        {%- if page.url != "/" -%}<a href="/">{%- endif -%}
-        Sum of a Batch!
-        {%- if page.url != "/" -%}</a>{%- else -%}</div>{%- endif -%}
+        <a href="/">Sum of a Batch!</a>
       </h1>
-      {%- if page.title -%}<h2>{{ page.title }}</h2>{%- endif -%}
+      <h2 style="padding: 0">
+        {% if page.section %}
+          <a href="/{{ page.section }}">{{ page.section }}</a>:
+        {% endif %}
+        {{ page.title }}
+      </h2>
     </header>
     <hr style="clear: both"/>
 

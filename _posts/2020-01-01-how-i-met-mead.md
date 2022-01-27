@@ -1,8 +1,9 @@
 ---
+last_updated: 2022-01-17
 layout: default
-title: How I Met Your Mother, er, I mean, Mead
-updated:   2022-01-17
+section: Blog
 tags: daves-mead-adventures
+title: How I Met Your Mother, er, I mean, Mead
 ---
 
 I think I first heard of mead when reading

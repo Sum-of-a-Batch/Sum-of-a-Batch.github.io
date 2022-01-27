@@ -1,8 +1,9 @@
 ---
+last_updated: 2021-12-24
 layout: default
-title: Welcome to Sum of a Batch!
-updated:   2021-12-24
+section: Blog
 tags: meta
+title: Welcome to Sum of a Batch!
 ---
 
 Welcome to _Sum of a Batch!_

@@ -5,3 +5,7 @@ table.post-list td,th {
 }
 table.post-list td.tag-column { font-size: 0.75em; }
 
+div.tag-cloud-marker + p {
+  margin-bottom: 2em;
+  text-align: center;
+}

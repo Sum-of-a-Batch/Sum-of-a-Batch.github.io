@@ -1,8 +1,9 @@
 ---
+last_updated: 2022-01-16
 layout: default
-title: Backsweetened Mary's-Honey and Blackberry Mead
-updated:   2022-01-16
+section: Blog
 tags: daves-mead-adventures
+title: Backsweetened Mary's-Honey and Blackberry Mead
 ---
 
 Today's Mead Adventure was
