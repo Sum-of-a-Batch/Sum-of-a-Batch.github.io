@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{{content}}
+
+<div class="tags">
+  Tags:
+  {% for tag in page.tags %}
+    <a href="/blog/tags/{{tag}}">{{tag}}</a>
+  {% endfor %}
+</div>

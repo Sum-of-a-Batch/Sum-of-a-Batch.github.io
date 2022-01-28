@@ -3,6 +3,7 @@ last_updated: 2022-01-17
 layout: default
 permalink: /blog/how-i-met-mead
 section: Blog
+style: blog-post
 tags: daves-mead-adventures
 title: How I Met Your Mother, er, I mean, Mead
 ---

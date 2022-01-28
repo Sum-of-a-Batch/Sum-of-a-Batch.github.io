@@ -3,6 +3,7 @@ last_updated: 2022-01-27
 layout: default
 permalink: /blog/using-bread-yeast
 section: Blog
+style: blog-post
 tags: yeasts
 title: Using Bread Yeast
 ---

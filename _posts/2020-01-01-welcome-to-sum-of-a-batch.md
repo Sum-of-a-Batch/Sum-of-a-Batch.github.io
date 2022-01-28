@@ -3,6 +3,7 @@ last_updated: 2021-12-24
 layout: default
 permalink: /blog/welcome-to-sum-of-a-batch
 section: Blog
+style: blog-post
 tags: meta
 title: Welcome to Sum of a Batch!
 ---
