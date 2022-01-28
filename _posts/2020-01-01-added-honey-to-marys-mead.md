@@ -1,6 +1,7 @@
 ---
 last_updated: 2022-01-16
 layout: default
+permalink: /blog/added-honey-to-marys-mead
 section: Blog
 tags: daves-mead-adventures
 title: Backsweetened Mary's-Honey and Blackberry Mead

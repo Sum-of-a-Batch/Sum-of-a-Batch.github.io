@@ -13,14 +13,13 @@ a wine-like drink
 made by fermenting honey rather than fruit.&nbsp;
 Most people
 (at least Americans)
-associate it with the Vikings,
+associate it with the Vikings --
 but actually,
-it was around for about 8,000 years before them,
-and was made _everywhere_ that people had honey
---
+it was around for about 8,000 years before them!&nbsp;
+It was made _everywhere_ that people had honey --
 all over not only Europe,
-but also Africa and Asia,
-including the Philippines,
+but also Africa and Asia
+(including at least the Philippines),
 and even Central America!
 
 Site Contents:

@@ -1,6 +1,7 @@
 ---
 last_updated: 2022-01-27
 layout: default
+permalink: /blog/using-bread-yeast
 section: Blog
 tags: yeasts
 title: Using Bread Yeast
