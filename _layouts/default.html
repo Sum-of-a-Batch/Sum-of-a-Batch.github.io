@@ -32,7 +32,7 @@
       </h1>
       <h2 style="padding: 0">
         {% if page.section %}
-          <a href="/{{ page.section }}">{{ page.section }}</a>:
+          <a href="/{{ page.section | downcase }}">{{ page.section }}</a>:
         {% endif %}
         {{ page.title }}
       </h2>
