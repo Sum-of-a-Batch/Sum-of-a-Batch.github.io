@@ -29,8 +29,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   and can do all the math in their heads, either.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.SumOfABatch.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: davearonson
-github_username:  davearonson
+twitter_username: DaveAronson
+github_username:  DaveAronson
 
 date_format: "%Y-%0m-%0d"
 

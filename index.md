@@ -31,3 +31,32 @@ Site Contents:
 - ❓ [About](about)
 - 🔗 [Links](links) to useful stuff elsewhere
 - 🙇🏻 [Credits](credits)
+
+### IMPORTANT NOTE:
+
+**I do not _sell alcohol_.**&nbsp;
+Nor do I give it away, as part of this business.&nbsp;
+Not one drop, no way no how,
+in any manner that could possibly be construed as selling,
+or even risking giving any to a minor.&nbsp;
+The laws on selling alcohol are just too complex and expensive
+for me to bother even _trying_ to comply with,
+and the penalties aren't worth the likely profits.&nbsp;
+(And distilling is Right Out.)
+
+What I _am_ giving away here on this website,
+is the _knowledge_
+for _you_ to _make your own_.&nbsp;
+What I am selling in the workshops
+is that knowledge plus the _equipment and ingredients_,
+which consists mostly of things that anybody could easily buy
+at their local grocery store.
+
+Any responsibility for:
+- the transfer of _your_ alcohol to any other party;
+- what _you_ or any other party do after drinking;
+- _your_ possession, drinking, or making of alcohol
+at your age and in your jurisdiction;
+- and any other consequences of following the advice herein;
+
+is _entirely on you_.
