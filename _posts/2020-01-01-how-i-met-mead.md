@@ -1,6 +1,6 @@
 ---
-last_updated: 2022-01-17
-layout: default
+date: 2022-01-17
+layout: blog-post
 permalink: /blog/how-i-met-mead
 section: Blog
 style: blog-post

@@ -1,5 +1,5 @@
 ---
-last_updated: 2022-01-28
+date: 2022-01-28
 layout: blog-post
 permalink: /blog/what-makes-it-mead
 section: Blog

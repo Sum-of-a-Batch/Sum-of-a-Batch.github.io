@@ -1,6 +1,6 @@
 ---
-last_updated: 2021-12-24
-layout: default
+date: 2021-12-24
+layout: blog-post
 permalink: /blog/welcome-to-sum-of-a-batch
 section: Blog
 style: blog-post

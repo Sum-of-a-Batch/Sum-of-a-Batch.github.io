@@ -1,6 +1,6 @@
 ---
-last_updated: 2022-01-27
-layout: default
+date: 2022-01-27
+layout: blog-post
 permalink: /blog/using-bread-yeast
 section: Blog
 style: blog-post

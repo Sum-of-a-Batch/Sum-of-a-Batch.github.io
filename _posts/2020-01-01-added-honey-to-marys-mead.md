@@ -1,6 +1,6 @@
 ---
-last_updated: 2022-01-16
-layout: default
+date: 2022-01-16
+layout: blog-post
 permalink: /blog/added-honey-to-marys-mead
 section: Blog
 style: blog-post

@@ -7,7 +7,7 @@ style: blog-index
 
 ### Posts
 
-{% assign sorted_posts = site.posts | sort: "last_updated" %}
+{% assign sorted_posts = site.posts | sort: "date" %}
 
 <table class="post-list">
   <thead>
@@ -23,7 +23,7 @@ style: blog-index
       <td>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </td>
-      <td>{{ post.last_updated | date: site.date_format }}</td>
+      <td>{{ post.date | date: site.date_format }}</td>
       <td class="tag-column">
         {% for tag in post.tags %}
           <a href="/blog/tags/{{ tag }}">{{ tag }}</a>
