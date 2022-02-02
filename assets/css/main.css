@@ -9,9 +9,9 @@
   --tiny-size:     calc(var(--small-size) / var(--size-ratio));
   --size-ratio:    1.167;
   --text-size:     clamp(10pt, 2vw, 16pt);
-  --link-color:    #dbc;  /* fg w/ +8 blue, -2 others */
   --bg-color:      #321;  /* brown */
   --fg-color:      #fd6;  /* roughly honey, brightened a tiny pinch */
+  --link-color:    #cde;  /* bg subtracted from fff */
 }
 
 body {
