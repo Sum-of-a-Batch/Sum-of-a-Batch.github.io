@@ -1,6 +1,7 @@
 ---
 layout: default
 section: Advice
+style: fix-a-batch
 title: 🛠️ Fix a Batch!
 ---
 

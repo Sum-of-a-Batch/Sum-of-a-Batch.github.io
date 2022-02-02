@@ -1,12 +1,15 @@
 :root {
-  --h1-size:       calc(var(--h2-size)   * var(--header-ratio));
-  --h2-size:       calc(var(--h3-size)   * var(--header-ratio));
-  --h3-size:       calc(var(--h4-size)   * var(--header-ratio));
-  --h4-size:       calc(var(--h5-size)   * var(--header-ratio));
-  --h5-size:       calc(var(--text-size) * var(--header-ratio));
-  --header-ratio:  1.2;
-  --text-size:     16pt;
-  --link-color:    #dc9;  /* fg w/ +4 blue, -2 others */
+  --h1-size:       calc(var(--h2-size)    * var(--size-ratio));
+  --h2-size:       calc(var(--h3-size)    * var(--size-ratio));
+  --h3-size:       calc(var(--h4-size)    * var(--size-ratio));
+  --h4-size:       calc(var(--h5-size)    * var(--size-ratio));
+  --h5-size:       calc(var(--big-size)   * var(--size-ratio));
+  --big-size:      calc(var(--text-size)  * var(--size-ratio));
+  --small-size:    calc(var(--text-size)  / var(--size-ratio));
+  --tiny-size:     calc(var(--small-size) / var(--size-ratio));
+  --size-ratio:    1.167;
+  --text-size:     clamp(10pt, 2vw, 16pt);
+  --link-color:    #dbc;  /* fg w/ +8 blue, -2 others */
   --bg-color:      #321;  /* brown */
   --fg-color:      #fd6;  /* roughly honey, brightened a tiny pinch */
 }
@@ -18,7 +21,7 @@ body {
   font-family:  Trebuchet MS, Tahoma, Helvetica, Arial, Sans-Serif;
   font-size:    var(--text-size);
   line-height:  1.5em;
-  margin:       1px 1%;
+  margin:       1px clamp(1px, 5%, 100px);
 }
 
 a, a:visited { color: var(--link-color) }
@@ -32,8 +35,10 @@ div.back-to-table {
   text-align: center;
 }
 
+blockquote { font-style: italic; }
+
 footer {
-  font-size:   0.6em;
+  font-size:   var(--tiny-size);
   line-height: 1.5em;
   text-align:  center;
 }
@@ -49,7 +54,6 @@ h1, h2, h3, h4, h5 {
   font-weight: bold;
   line-height: 1.5em;
   margin:      0;
-  padding-top: 0.2em;
   text-align:  center;
 }
 
@@ -59,7 +63,7 @@ h3 { font-size: var(--h3-size); }
 h4 { font-size: var(--h4-size); }
 h5 { font-size: var(--h5-size); }
 
-li { margin: 0.5em 0 }
+li { margin-right: min(5%, 3em); }
 
 span.sigma-on-amphora {
   color:        var(--fg-color);
@@ -69,24 +73,6 @@ span.sigma-on-amphora {
   position:     absolute;
   top:          50%;
   transform:    translate(-50%,-54%);
-}
-
-table#bad_reasons {
-  table-layout: fixed;
-  width: 100%;
-}
-
-table#bad_reasons td {
-  border: 2px solid red;
-  text-align: center;
-  width: 33%;
-}
-
-table#bad_reasons a {
-  display: inline-block;
-  height: 100%;
-  padding: 0.2em;
-  width: 100%;
 }
 
 .center { text-align: center }

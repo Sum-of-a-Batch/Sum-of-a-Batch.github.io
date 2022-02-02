@@ -1,0 +1,17 @@
+table#bad_reasons {
+  table-layout: fixed;
+  width: 100%;
+}
+
+table#bad_reasons td {
+  border: 2px solid red;
+  text-align: center;
+  width: 33%;
+}
+
+table#bad_reasons a {
+  display: inline-block;
+  height: 100%;
+  padding: 0.2em;
+  width: 100%;
+}
