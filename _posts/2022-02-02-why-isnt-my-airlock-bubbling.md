@@ -151,3 +151,21 @@ around the airlock stem can make it big enough to fit snugly.
 
 There are probably a few more not leaping to my poor little brain.&nbsp;
 Eventually I will install a comment system here and you can ask.
+
+EDITED TO ADD:
+
+So how do I tell if my bucket is leaking?&nbsp;
+Push down very gently on the top,
+and see if that gives you much airlock activity.&nbsp;
+Before letting go, keep your pressure on it,
+and see if the airlock rebalances itself.&nbsp;
+If you don't get _any_ activity when you push,
+it's leaking like a sieve!&nbsp;
+If you only get a little, it _may_ still be leaky;
+use your own judgement in comparing the airlock activity
+to how much you would expect,
+given how much you flexed the lid;
+you could try pushing more.&nbsp;
+If it rebalances itself with the pressure still on,
+you've definitely got a leak.&nbsp;
+If it doesn't, you probably don't, at least not a serious one.
