@@ -101,7 +101,7 @@ And of course the extra alcohol was a nice bonus!
 
 Now I was thoroughly hooked on mead.&nbsp;
 I found a number of other resources
-(see [Links](links)),
+(see [Links](/links)),
 and my eyes were opened to the even wider world of mead.&nbsp;
 I've since made several more batches
 (including some JAOM variants, _some_ of which turned out okay),
