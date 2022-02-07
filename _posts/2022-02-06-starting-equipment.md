@@ -1,5 +1,5 @@
 ---
-date: 2022-02-04
+date: 2022-02-06
 layout: blog-post
 permalink: /blog/starting-equipment
 section: Blog
