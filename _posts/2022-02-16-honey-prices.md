@@ -18,14 +18,22 @@ Price depends on variety, volume, and location.&nbsp;
 The best price I've seen on
 varietal honey of presumably decent quality,
 is probably local-ish to me (middle of east coast USA).&nbsp;
-That would be the five-pound jugs of clover honey at Wegman's grocery stores
-for $9.95 each, making it a hair under $2 a pound.&nbsp;
+That would be
+[the five-pound jugs of clover honey](https://shop.wegmans.com/product/19651/wegmans-honey-clover-family-pack){:rel="nofollow" target="_new"}
+at
+[Wegman's grocery stores](https://wegmans.com/){:rel="nofollow" target="_new"}.&nbsp;
+They used to be $9.99 each ($2/pound),
+but are now $13.99 ($2.80/pound).&nbsp;
 Unfortunately, Wegman'ses are only located in seven states,
 in the mid-Atlantic coast and northeast.&nbsp;
 Elsewhere, some other chain might have a similar deal.&nbsp;
-Many chains, such as Costco,
-also have 5-pound jugs of _wildflower_ honey
-at a similar price.&nbsp;
+Many chains, such as
+[Costco](https://www.costco.com/){:rel="nofollow" target="_new"},
+also have
+[5-pound jugs of _wildflower_ honey](https://www.costco.com/kirkland-signature-wild-flower-honey%2c-5-lbs.product.100516925.html){:rel="nofollow" target="_new"}
+at similar prices;
+the ones linked there also used to be $9.99 each,
+but are now $16.99 ($3.40/pound).&nbsp;
 (Eventually I may do a blog post on
 _kinds_ of honey,
 including what I mean by
@@ -36,9 +44,13 @@ The best price I've seen on any varietal _other_ than clover,
 in a volume I personally can make decent use of
 (i.e., gallon or less, not a multi-gallon bucket),
 is probably even more local to me.&nbsp;
-That is the two-pound jars of Gunter Apiaries Orange Blossom,
-allegedly available at Whole Foods for $8.99,
-at least the store in Vienna, Virginia.&nbsp;
+That is the two-pound jars of
+[Gunter's Honey](https://www.facebook.com/Gunters-Honey-1486385934985598/){:rel="nofollow" target="_new"}
+Orange Blossom,
+allegedly
+[available at Whole Foods for $8.99](https://www.wholefoodsmarket.com/product/gunter-apiaries-honey-orange-blossom-32-oz-b00gp342fu){:rel="nofollow" target="_new"},
+at least
+[the store in Vienna, Virginia](https://www.google.com/maps/place/Whole+Foods+Market/@38.9022469,-77.2648844,17z/data=!3m1!4b1!4m5!3m4!1s0x89b64bb7c529ff7d:0xa9606737baa27ed5!8m2!3d38.9024039!4d-77.2626494){:rel="nofollow" target="_new"}.&nbsp;
 I didn't notice it in the actual store when browsing a couple years ago,
 but their web site lists it.&nbsp;
 No idea if it's available outside Northern Virginia,
@@ -59,7 +71,10 @@ I bought four, which is enough to last me a couple years.&nbsp;
 I got orange, lemon, tangerine, and lehua blossom honeys,
 all of which make great "trads".&nbsp;
 Just beware of how fast lehua crystallizes.)&nbsp;
-Unfortunately they have no significant web presence,
+It also means supporting a small family business,
+not a huge chain like Wegmans, Costco, Amazon,
+or even things Amazon owns, like Whole Foods.&nbsp;
+Unfortunately, they have no significant web presence,
 other than
 [their listing under the Hilo Farmers Market](http://hilofarmersmarket.com/waokelehoney.html){:rel="nofollow" target="_new"}.&nbsp;
 Apparently they have their hands full with
