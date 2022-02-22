@@ -18,7 +18,7 @@ a semi-retired software development consultant.&nbsp;
 for details on that.)
 
 You can see
-[How I Met Your Mother, er, I mean, Mead](/2020/01/01/how-i-met-mead.html)
+[How I Met Your Mother, er, I mean, Mead](/blog/how-i-met-mead.html)
 for my background with mead.
 
 On other notes,
