@@ -79,5 +79,6 @@ ul { padding-left: calc(1em + min(1%, 1em)); }
 
 .big    { font-size:  var(--big-size); }
 .center { text-align: center; }
+.centered { display: block; margin-left: auto; margin-right: auto; }
 .small  { font-size:  var(--small-size); }
 .tiny   { font-size:  var(--tiny-size); line-height: var(--small-size); }

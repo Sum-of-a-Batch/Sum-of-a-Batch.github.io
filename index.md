@@ -23,6 +23,8 @@ but also Africa and Asia
 and even Central America!
 
 Site Contents:
+- 🥃 [Simple Recipe](simple_recipe)
+- ❌ [Mead Myths BUSTED!](myths)
 - 🧮 [Calculators](calculators)
 - 💡 [Advice](advice)
 - ⏯️ [Videos](videos) coming eventually, for now just a list of what's planned
