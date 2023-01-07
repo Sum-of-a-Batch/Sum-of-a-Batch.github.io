@@ -1,6 +1,6 @@
-function get_number(name, errs, blank_ok = false) {
+function get_number(name, errs, blank_ok = false, default_value=0) {
   var val = get_value(name);
-  if (val == '' && blank_ok) return 0;
+  if (val == '' && blank_ok) return default_value;
   var res = parseFloat(val);
   if (isNaN(res)) {
     errs.push('"' + val + '" is not a valid value for ' + name);

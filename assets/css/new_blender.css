@@ -1,4 +1,9 @@
-input,td,th {
+input {
   text-align: right;
   width: 4em;
+}
+
+td {
+  padding-left: 0.5em;
+  padding-right: 0.1em;
 }

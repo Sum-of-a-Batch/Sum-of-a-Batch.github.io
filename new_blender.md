@@ -9,7 +9,7 @@ style: new_blender
 
 <table id="blendees">
   <thead>
-    <tr><th>Volume<sup>*</sup></th><th>SG</th><th>%ABV</th></tr>
+    <tr><th>Volume</th><th>SG</th><th>%ABV</th></tr>
   </thead>
   <tbody>
   </tbody>
@@ -18,7 +18,6 @@ style: new_blender
   add_blender_row()
   add_blender_row()
 </script>
-<small>*In whatever units, but the same for all</small>
 
 <button type="button" onClick="add_blender_row()">Add a Row</button>
 <button type="button" onClick="blend()">Calculate</button>
