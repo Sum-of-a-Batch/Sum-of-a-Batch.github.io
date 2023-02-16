@@ -1,3 +1,16 @@
+let UNITS = {
+  /*
+   * TODO: add IMPERIAL volume units, MASS units,
+   * change "liters" to "to_metric" or some such.
+   */
+  "cups (US)"   :  { liters:  0.236588  },
+  "gallons (US)":  { liters:  3.78541   },
+  "liters"      :  { liters:  1.0       },
+  "ml / cc"     :  { liters:  0.001     },
+  "ounces (US)" :  { liters:  0.0295735 },
+  "quarts (US)" :  { liters:  0.946353  },
+};
+
 function blend() {
   var errs = [];
   var total_alc = 0;
@@ -8,16 +21,18 @@ function blend() {
   let num_blendees = tbody.childElementCount;
   let results = document.getElementById('results');
 
-  for (let i = 0; i < num_blendees; i++) {
-    let vol = get_number('volume-' + i, errs, true, 0);
-    let sg  = get_number('sg-'     + i, errs, true, 1);
-    let abv = get_number('abv-'    + i, errs, true, 0);
-    if(vol < 0) { errs.push('Volumes must be greater than zero'); }
+  for(let i = 0; i < num_blendees; i++) {
+    let qty = get_number('qty-' + i, errs, true, 0);
+    let sg  = get_number('sg-'  + i, errs, true, 1);
+    let abv = get_number('abv-' + i, errs, true, 0);
+    if(qty < 0) { errs.push('Quantities must be greater than zero'); }
     if(sg  < 0) { errs.push('SGs must be at least zero'); }
     if(abv < 0) { errs.push('ABVs must be at least zero'); }
-    total_vol += vol;
-    total_wt  += vol * sg;
-    total_alc += vol * abv;
+    let unit = get_value('unit-' + i);
+    let liters = qty * UNITS[unit].liters;
+    total_vol += liters;
+    total_wt  += liters * sg;
+    total_alc += liters * abv;
   }
 
   if(errs.length > 0) {
@@ -34,7 +49,7 @@ function blend() {
   results.innerHTML = [
     'The combined batch will have:',
     '<ul>',
-      '<li>a volume of ' + total_vol + ' units,</li>',
+      '<li>a volume of ' + total_vol.toFixed(3) + ' liters,</li>',
       '<li>an SG of ' + net_sg.toFixed(3) +
         ' (' + sweetness(net_sg) + '), and</li>',
       '<li>an ABV of ' + net_abv.toFixed(1) + '%.</li>',
@@ -48,25 +63,15 @@ function add_blender_row() {
   tbody.insertRow(num_rows).innerHTML = make_blender_row(num_rows);
 }
 
-let UNITS = [
-  { name: "cups",     liters:  0.236588  },
-  { name: "gallons",  liters: 15.141632  },
-  { name: "liters",   liters:  1.0       },
-  { name: "ml / cc",  liters:  0.001     },
-  { name: "ounces",   liters:  0.0295735 },
-];
-
 function make_blender_row(row_num) {
   return(
     [
       '<tr>',
         '<td>',
-          '<input type="number" id="volume-' + row_num + '">',
-          '<select id="units-' + row_num + '">',
-            UNITS.map(function(unit) {
-              let name = unit.name;
-              return '<option value="' + name + '">' + name + '</option>';
-            }),
+          '<input type="number" id="qty-' + row_num + '">',
+          '<select id="unit-' + row_num + '">',
+            unit_names().map(function(name) {
+              return '<option>' + name + '</option>'; }),
           '</select>',
         '</td>',
         '<td><input type="number" id="sg-'     + row_num + '"></td>',
@@ -74,4 +79,10 @@ function make_blender_row(row_num) {
       '</tr>'
     ].join('\n')
   );
+}
+
+function unit_names() {
+  let arr = [];
+  for(name in UNITS) arr.push(name);
+  return arr;
 }
