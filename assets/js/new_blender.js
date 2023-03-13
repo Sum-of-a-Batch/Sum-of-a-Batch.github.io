@@ -13,7 +13,9 @@ let LIQUIDS = {
   "cherry juice"            : { sg: 1.137, abv:  0 },
   "grape juice"             : { sg: 1.048, abv:  0 },
   "grape juice concentrate" : { sg: 1.34 , abv:  0 },
+  "mango nectar"            : { sg: 1.048, abv:  0 },
   "maple syrup"             : { sg: 1.331, abv:  0 },
+  "peach nectar"            : { sg: 1.048, abv:  0 },
   "vodka"                   : { sg: 0.940, abv: 40 },
 };
 
