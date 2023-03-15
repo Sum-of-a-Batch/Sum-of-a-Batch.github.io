@@ -43,36 +43,57 @@ let UNITS = {
 
 let unit_names = gather_names(UNITS);
 
+function err_part(bad_num, row_num) {
+  return '; got ' + bad_num + ' on row ' + (row_num + 1);
+}
+
+function parse_blendee(row_num, errs) {
+  let qty = get_number('qty-' + row_num, errs, true, 0);
+  let sg  = get_number('sg-'  + row_num, errs, true, 1);
+  let abv = get_number('abv-' + row_num, errs, true, 0);
+  if(qty < 0) {
+    errs.push('Quantities must be greater than zero' + err_part(qty, row_num));
+  }
+  if(sg  < 0) {
+    errs.push('SGs must be at least zero' + err_part(qty, row_num));
+  }
+  if(abv < 0) {
+    errs.push('ABVs must be at least zero' + err_part(qty, row_num));
+  }
+  return { "qty": qty, "unit": get_value('unit-' + row_num), "sg": sg, "abv": abv }
+}
+
+
 function blend() {
   var errs = [];
+  var items = [];
   var total_alc = 0;
   var total_vol = 0;
   var total_wt = 0;
+  var total_sugar = 0;
 
   let tbody = document.getElementById('blendees').tBodies[0];
   let num_blendees = tbody.childElementCount;
   let results = document.getElementById('results');
 
-  for(let i = 0; i < num_blendees; i++) {
-    let qty = get_number('qty-' + i, errs, true, 0);
-    let sg  = get_number('sg-'  + i, errs, true, 1);
-    let abv = get_number('abv-' + i, errs, true, 0);
-    if(qty < 0) { errs.push('Quantities must be greater than zero'); }
-    if(sg  < 0) { errs.push('SGs must be at least zero'); }
-    if(abv < 0) { errs.push('ABVs must be at least zero'); }
-    let unit = get_value('unit-' + i);
-    let liters = qty * UNITS[unit].to_metric;
+  for(let row_num = 0; row_num < num_blendees; row_num++) {
+    let item = parse_blendee(row_num, errs);
+    items.push(item);
+    let liters = item.qty * UNITS[item.unit].to_metric;
     total_vol += liters;
-    total_wt  += liters * sg;
-    total_alc += liters * abv;
+    total_wt  += liters * item.sg;
+    total_alc += liters * item.abv;
+    item.sugar = liters * (item.sg - 1);
+    total_sugar += item.sugar;
   }
 
-  if(errs.length > 0) {
-    results.innerHTML = "";
-    let unique_errs =
-      errs.filter(function(val,idx,self) { return self.indexOf(val) === idx })
-    alert(unique_errs.join('\n'));
-    return;
+  if(errs.length) return alert('Errors:\n' + errs.join('\n'));
+
+  for(let row_num = 0; row_num < num_blendees; row_num++) {
+    item = items[row_num];
+    document.
+      getElementById('sug-' + row_num).
+      innerHTML = (item.sugar * 100 / total_sugar).toFixed(1) + '%';
   }
 
   net_sg = total_wt / total_vol;
@@ -103,6 +124,7 @@ function make_blender_row(row_num) {
   return(
     [
       '<tr>',
+        '<td>', row_num, '</td>',
         '<td>',
           '<input type="number" id="qty-' + row_num + '">',
           '<select id="unit-' + row_num + '">',
@@ -116,6 +138,7 @@ function make_blender_row(row_num) {
         '</td>',
         '<td><input type="number" id="sg-'     + row_num + '"></td>',
         '<td><input type="number" id="abv-'    + row_num + '"></td>',
+        '<td id="sug-' + row_num + '"></td>',
       '</tr>'
     ].join('\n')
   );

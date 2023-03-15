@@ -9,7 +9,7 @@ style: new_blender
 
 <table id="blendees">
   <thead>
-    <tr><th>Quantity</th><th>Liquid</th><th>SG</th><th>%ABV</th></tr>
+    <tr><th>Item</th><th>Quantity</th><th>Liquid</th><th>SG</th><th>%ABV</th><th>%Sugar</th></tr>
   </thead>
   <tbody></tbody>
 </table>
@@ -24,7 +24,8 @@ style: new_blender
 <div id="results"></div>
 
 FUTURE PLANS:
-- output in largest volume unit actually used
+- output in largest volume unit actually used, or make it selectable
 - add _mass/weight_ units (kilos, grams, pounds, oz av, etc.) and calculate the volume
-- add which liquid contributed what % of sugars, assuming all mass above SG 1 is sugars, maybe with a warning that if the honey (if any) is below 50% it's not mead
 - add way to designate a _desired total_ volume, and a row as what to adjust to "make it so"
+- add parsing of query params, so we can save a recipe as a URL
+- add warning that if the honey (if any) is below 50% of the sugars it's not mead  :-)
