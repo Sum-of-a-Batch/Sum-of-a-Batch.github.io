@@ -124,7 +124,7 @@ function make_blender_row(row_num) {
   return(
     [
       '<tr>',
-        '<td>', row_num, '</td>',
+        '<td style="text-align: center">', row_num, '</td>',
         '<td>',
           '<input type="number" id="qty-' + row_num + '">',
           '<select id="unit-' + row_num + '">',

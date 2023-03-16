@@ -1,9 +1,11 @@
-input {
+input[type=number] {
   text-align: right;
-  width: 4em;
+  width: 3.5em;
 }
 
-td {
+table { margin: auto }
+
+td,th {
   padding-left: 0.5em;
   padding-right: 0.1em;
 }
