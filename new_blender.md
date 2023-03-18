@@ -27,10 +27,19 @@ style: new_blender
       <td colspan="5"></td>
     </tr>
     <tr>
-      <td>
-        <button type="button" onClick="blend()">Calculate</button>
-      </td>
+      <td style="text-align: center"><button type="button" onClick="blend()">Blend</button></td>
       <td colspan="5"></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">
+        <button type="button" onClick="ferment()">Ferment</button>
+      </td>
+      <td colspan="2">
+        with yeast of
+        <input type="number" id="tolerance" style="width: 3em">
+        % tolerance
+      </td>
+      <td colspan="3"></td>
     </tr>
   </tbody>
 </table>
@@ -45,9 +54,10 @@ INSTRUCTIONS:
 
 - You can use this
 to figure the effects of
-blending various amounts of various liquids.&nbsp;
+blending various amounts of various liquids,
+and optionally then also fermenting the resulting mixture.&nbsp;
 For instance:
-  - Making a mead must
+  - Making a mead must, and fermenting it
   - Blending two batches of mead together
   - Diluting, fortifying, or sweetening mead
 - Enter how much you want to use, of your first liquid:
@@ -59,10 +69,13 @@ For instance:
   - Any SG or %ABV left blank is taken as zero
 - Repeat the steps above for Row 2
 - If you need more rows, press the "Add Row" button
-- After you've entered all your liquids, press the "Calculate" button
+- After you've entered all your liquids, you can:
+  - click "Blend" to see what it would be like to blend them together, or
+  - Enter a yeast tolerance and click "Ferment" to see that _and_
+  what would be the results of fermenting that mixture,
+  with a yeast of that tolerance
 
 FUTURE PLANS:
-- use this, plus an input for yeast tolerance, to create a new batch planner page
 - output in largest volume unit actually used, or make it selectable
 - add _mass/weight_ units (kilos, grams, pounds, oz av, etc.) and calculate the volume
 - add way to designate a _desired total_ volume, and a row as what to adjust to "make it so"

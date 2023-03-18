@@ -1,3 +1,8 @@
+let ABV_PER_SG_POINT  = 131.25;
+let HONEY_SG          = 1.425;
+let KILOS_PER_POUND   = 0.453592;
+let LITERS_PER_GALLON = 3.78541;
+
 function gather_names(map) {
   let arr = [];
   for(name in map) arr.push(name);
@@ -87,7 +92,10 @@ function blend() {
     total_sugar += item.sugar;
   }
 
-  if(errs.length) return alert('Errors:\n' + errs.join('\n'));
+  if(errs.length) {
+    alert('Errors:\n' + errs.join('\n'));
+    return false;
+  }
 
   for(let row_num = 0; row_num < num_blendees; row_num++) {
     item = items[row_num];
@@ -100,7 +108,7 @@ function blend() {
   net_abv = total_alc / total_vol;
 
   results.innerHTML = [
-    'The combined batch will have:',
+    '<p>The mixture will have:</p>',
     '<ul>',
       '<li>a volume of ' + total_vol.toFixed(3) + ' liters,</li>',
       '<li>an SG of ' + net_sg.toFixed(3) +
@@ -108,6 +116,52 @@ function blend() {
       '<li>an ABV of ' + net_abv.toFixed(1) + '%.</li>',
     '</ul>'
   ].join('\n');
+  return { "vol": total_vol, "sg": net_sg, "abv": net_abv };
+}
+
+function ferment() {
+  let blending_results = blend();
+  if(! blending_results) return false;
+
+  let errs = [];
+  let tolerance = get_number('tolerance', errs, false, 0);
+
+  if(errs.length) {
+    alert('Errors:\n' + errs.join('\n'));
+    return false;
+  }
+
+  let factors = { ... blending_results };
+  factors["tolerance"] = tolerance;
+  let results = ferment_with_factors(factors);
+
+  document.
+    getElementById('results').
+    innerHTML += [
+      '<p>Final results: ',
+      results.abv.toFixed(1),
+      '% ABV at SG ',
+      results.sg.toFixed(3) +
+      ' (',
+      sweetness(results.sg),
+      ').</p>'
+    ].join('');
+}
+
+function ferment_with_factors(factors) {
+  let results = { ... factors };
+
+  if(factors.abv > factors.tolerance) {
+    factors["msg"] = "This already exceeds the tolerance";
+  }
+
+  results.abv += factors.abv + (factors.sg - 1) * ABV_PER_SG_POINT;
+  if(results.abv > factors.tolerance) results.abv = factors.tolerance;
+
+  let more_abv = results.abv - factors.abv;
+  results.sg -= more_abv / ABV_PER_SG_POINT;
+
+  return results;
 }
 
 function add_blender_row() {
