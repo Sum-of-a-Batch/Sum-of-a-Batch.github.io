@@ -70,7 +70,7 @@ For instance:
 - Repeat the steps above for Row 2
 - If you need more rows, press the "Add Row" button
 - After you've entered all your liquids, you can:
-  - click "Blend" to see what it would be like to blend them together, or
+  - Click "Blend" to see what it would be like to blend them together, or
   - Enter a yeast tolerance and click "Ferment" to see that _and_
   what would be the results of fermenting that mixture,
   with a yeast of that tolerance
