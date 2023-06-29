@@ -12,10 +12,12 @@ is:
   - 1/2 lb honey (ideally orange blossom, avoid buckwheat)
   - 2 cups water (ideally spring, avoid chlorine)
   - 1/4 teaspoon regular bread yeast
+<br/><br/>
 - Equipment:
   - Two very clean glass jars, at least about 24-oz capacity (spaghetti sauce jars will do fine)
-  - A clean piece cloth to cover the jar mouth
+  - A clean piece of cloth to cover the jar mouth
   - A rubber-band (or piece of string) to hold that in place
+<br/><br/>
 - Process:
   - Mix all ingredients in one jar
   - Cover its mouth with the cloth
@@ -23,7 +25,12 @@ is:
   - Place somewhere roughly room-temp, out of direct sunlight
   - Wait for it to start bubbling (anywhere from a couple hours to days)
   - Wait for it to stop bubbling (from a couple weeks to months)
-  - Pour carefully into other jar, leaving behind as much of the sludge at the bottom as possible
+  - Pour carefully into the other jar, leaving behind as much of the sludge at the bottom as possible
+<br/><br/>
+- Notes:
+  - A half-liter bottle of spring water will do fine, it will just be a little drier, actually a bit better to my taste.
+  - If you want to make more, like using a half-gallon jar, it scales linearly, i.e., you can just double the amounts, or whatever.&nbsp; (There are limits, but if you're doing multiple gallons, chances are you are already well beyond this simplified recipe!)
+  - If you do scale it up, remember to leave _at least_ a half-inch of space between the top of the liquid and the cloth, ideally more.
 
 Congratulations, you've just made your first batch of mead!&nbsp;
 It will _probably_ be
@@ -48,8 +55,10 @@ if you get hit with the glass shrapnel.
 
 Next time,
 you can try adding some fruits, herbs, spices, or other flavorings,
+substituting fruit juice for the water,
+using a little more or less honey,
 and/or using different _kinds_ of honey.&nbsp;
-(You can even try _omitting_ the bread yeast,
+(You can even try omitting the _yeast_,
 and let whatever wild yeast floats in, have at it!)&nbsp;
 If you decide you like it,
 you can scale up the recipe,
