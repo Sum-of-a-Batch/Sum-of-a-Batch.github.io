@@ -6,11 +6,15 @@ layout: default
 title: Home
 ---
 
-Welcome to _Sum of a Batch!_&nbsp;
+<h3>Welcome to <i>Sum of a Batch!</i></h3>
+
+
+![image](assets/img/mead-bottles-from-grok.jpg){:class="centered" style="border-radius: 4em"}
+
 This site is about making
 [mead](https://en.wikipedia.org/wiki/Mead){:rel="nofollow" target="_new"},
 a wine-like drink
-made by fermenting honey rather than fruit.&nbsp;
+made by fermenting _honey_ rather than _fruit_.&nbsp;
 Most people
 (at least Americans)
 associate it with the Vikings --
@@ -19,7 +23,7 @@ it was around for about 8,000 years before them!&nbsp;
 It was made _everywhere_ that people had honey --
 all over not only Europe,
 but also Africa and Asia
-(including at least the Philippines),
+(including some Pacific islands, at least the Philippines),
 and even Central America!
 
 Site Contents:
@@ -34,7 +38,7 @@ Site Contents:
 - 🔗 [Links](links) to useful stuff elsewhere
 - 🙇🏻 [Credits](credits)
 
-### IMPORTANT NOTE:
+### IMPORTANT LEGAL NOTE:
 
 **I do not _sell alcohol_.**&nbsp;
 Nor do I give it away, as part of this business.&nbsp;
@@ -45,6 +49,7 @@ The laws on selling alcohol are just too complex and expensive
 for me to bother even _trying_ to comply with,
 and the penalties aren't worth the likely profits.&nbsp;
 (And distilling is Right Out.)
+{:class="small"}
 
 What I _am_ giving away here on this website,
 is the _knowledge_
@@ -53,12 +58,16 @@ What I am selling in the workshops
 is that knowledge plus the _equipment and ingredients_,
 which consists mostly of things that anybody could easily buy
 at their local grocery store.
+{:class="small"}
 
 Any responsibility for:
+{:class="small"}
 - the transfer of _your_ alcohol to any other party;
 - what _you_ or any other party do after drinking;
 - _your_ possession, drinking, or making of alcohol
 at your age and in your jurisdiction;
 - and any other consequences of following the advice herein;
+{:class="small"}
 
 is _entirely on you_.
+{:class="small"}
